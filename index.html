@@ -4,18 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JavaScript Variables and data types</title>
+    <meta name="author" content="Skaur" />
+    <meta name="description" content="To-do list; add and delete task" />
+    <title>To-Do List</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <h1>To-Do List</h1>
-      <form action="">
-        <input type="text" id="task" />
-        <input type="button" value="Add Task" onclick="addTask()" />
-
-        <ul id="list"></ul>
+      <form onsubmit="return false">
+        <input type="text" id="task" value="" />
+        <input type="submit" value="Add Task" onclick="addTask()" />
       </form>
+      <ul id="list"></ul>
     </div>
   </body>
   <script src="script.js"></script>
