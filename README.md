@@ -1,3 +1,3 @@
 # to-do-list
 
-This project is not complete.
+to-do list with javascript
